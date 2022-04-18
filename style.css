@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
 }
 
 /* banner */
@@ -342,4 +344,43 @@ hr{
     font-size: 20px;
     color: #009688;
     margin: 10px;
+}
+@media all and (max-width: 480px) {
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+    #banner h1{
+        font-size: 40px;
+    }
+    #feature .title-text h1{
+        font-size: 40px;
+    }
+    #feature .feature-text p{ 
+        display:flex;
+    }
+    .feature-box{
+        flex-wrap: nowrap;
+        justify-content: center;
+        display: block;
+    }
+    .features-img{
+        display: none;
+    }
+    #service h1{
+        font-size: 40px;
+    }
+    .service-box{
+        display: block;
+    }
+    #testimonial h1{
+        font-size: 40px;
+    }
+    #contact h1{
+        font-size: 40px;
+    }
+    .footer-row{
+        display: block;
+    }
 }
